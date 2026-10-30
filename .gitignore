@@ -6,3 +6,6 @@
 
 # Arquivos temporários do Windows
 Thumbs.db
+
+# Configurações locais do VS Code
+.vscode/

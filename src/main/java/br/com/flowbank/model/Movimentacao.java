@@ -1,12 +1,14 @@
 
 package br.com.flowbank.model;
 
+import java.math.BigDecimal;
+
 public class Movimentacao {
 
     private String tipo;
-    private double valor;
+    private BigDecimal valor;
 
-    public Movimentacao(String tipo, double valor) {
+    public Movimentacao(String tipo, BigDecimal valor) {
         this.tipo = tipo;
         this.valor = valor;
     }
@@ -15,7 +17,7 @@ public class Movimentacao {
         return tipo;
     }
 
-    public double getValor() {
+    public BigDecimal getValor() {
         return valor;
     }
 }
